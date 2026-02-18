@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsLocalNetworking</key>
+        <true/>
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+    </dict>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>JARVIS needs microphone access for voice commands.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>JARVIS uses speech recognition to process your voice commands.</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>JARVIS connects to your homelab OpenClaw gateway on the local network.</string>
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_http._tcp</string>
+    </array>
+</dict>
+</plist>
+
