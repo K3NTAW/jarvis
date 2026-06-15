@@ -7,9 +7,6 @@ panels, status grids, and more.
 
 Built in Swift / SwiftUI. Runs on iOS, macOS, and tvOS.
 
-> Add 2 to 3 screenshots or a screen recording here. This app is very visual and
-> a GIF sells it far better than text.
-
 ## What it does
 
 - **Generative UI.** The model responds with a structured blueprint (layout, title,
